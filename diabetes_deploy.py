@@ -8,7 +8,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-model=pickle.load(open('C:/Users/Ninad/OneDrive/Desktop/Web deployment/Diab.sav','rb'))
+model=pickle.load(open('C:/Users/Ninad/OneDrive/Desktop/jupyter/Diabetes/Diab.sav','rb'))
 
 def predict(input_data):
     input_data=np.array(input_data)
